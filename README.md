@@ -17,7 +17,6 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
 <h3>Program:</h3>
-<code>
  ! pip install nltk
 import nltk
 from nltk.tokenize import word_tokenize
@@ -75,7 +74,6 @@ for sentence in sentences:
     print()
   print("\n\n")
   i+=1
-  </code>
 <H3>Output</H3>
 
 ![](img1.png)
