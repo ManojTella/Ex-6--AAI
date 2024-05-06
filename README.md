@@ -25,25 +25,24 @@ from nltk.corpus import wordnet
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
-</code>
-<code>
+
  #reading content from file
 f = open("/content/samplefile.txt", "r")
 sentences = f.readlines()
-f.close()</code>
-<code>
+f.close()
+ 
  verbs = [[] for _ in sentences]
 i=0
 for sentence in sentences:
   print("Sentence",i+1,":", sentence)
 
-  # Tokenize the sentence into words
+  #Tokenize the sentence into words
   words = word_tokenize(sentence)
 
-  # Identify the parts of speech for each word
+  #Identify the parts of speech for each word
   pos_tags = nltk.pos_tag(words)
 
-  # Print the parts of speech
+  #Print the parts of speech
   for word,tag in pos_tags:
     print(word,"->",tag)
 
@@ -51,9 +50,9 @@ for sentence in sentences:
     if tag.startswith('VB'):
       verbs[i].append(word)
   i+=1
-  print("\n\n")</code>
-  <code>
-# Identify synonyms and antonyms for each word
+  print("\n\n")
+ 
+#Identify synonyms and antonyms for each word
 print("Synonyms and Antonymns for verbs in each sentence:\n")
 i=0
 for sentence in sentences:
@@ -70,7 +69,7 @@ for sentence in sentences:
           for antonym in lemma.antonyms():
             antonyms.append(antonym.name())
 
-    # Print the synonyms and antonyms
+    #Print the synonyms and antonyms
     print("Synonyms:",set(synonyms))
     print("Antonyms:", set(antonyms) if antonyms else "None")
     print()
