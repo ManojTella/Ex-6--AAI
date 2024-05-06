@@ -18,7 +18,6 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	Print the unique sets of synonyms and antonyms.
 ### Program:
 ```
-#importing packages
 <code>
  ! pip install nltk
 import nltk
