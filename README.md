@@ -29,8 +29,8 @@ nltk.download('wordnet')
 ```
 
 <H3>Output</H3>
-![image](https://github.com/ManojTella/Ex-6--AAI/assets/94883876/7517a642-0918-4ce1-a04e-fe3ca271a246)
-![image](https://github.com/ManojTella/Ex-6--AAI/assets/94883876/ac76aa25-8264-4aaf-9ca7-f84badffc34c)
+<img>![image](https://github.com/ManojTella/Ex-6--AAI/assets/94883876/7517a642-0918-4ce1-a04e-fe3ca271a246)</img>
+<img>![image](https://github.com/ManojTella/Ex-6--AAI/assets/94883876/ac76aa25-8264-4aaf-9ca7-f84badffc34c)</img>
 
 
 <H3>Result:</H3>
