@@ -30,8 +30,8 @@ nltk.download('wordnet')
 
 <H3>Output</H3>
 
-![](img1.jpg)
-![](img2.jpg)
+![](img1.png)
+![](img2.png)
 
 <H3>Result:</H3>
 Thus ,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
