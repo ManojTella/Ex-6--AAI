@@ -26,6 +26,11 @@ nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 </code>
+<code>
+ #reading content from file
+f = open("/content/samplefile.txt", "r")
+sentences = f.readlines()
+f.close()</code>code>
 <H3>Output</H3>
 
 ![](img1.png)
