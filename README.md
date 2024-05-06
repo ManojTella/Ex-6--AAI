@@ -3,7 +3,7 @@
 ### EX. NO.6
 ### DATE:
 ## Implementation of Semantic ANalysis
-### Aim: T
+### Aim: 
 To perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. 
  
 ### Algorithm:
